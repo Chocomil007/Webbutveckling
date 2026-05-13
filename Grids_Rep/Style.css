@@ -1,40 +1,39 @@
 @charset "UTF-8";
 
-section{
-    background: hotpink;
-    padding: 10px;
-    margin: 10px;
-}
-
 body{
     display: grid;
-    grid-template-columns: 3fr 2fr ;
-    grid-template-areas: 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
     
-    "A B "
-    "A E "
-    "D C"
+    " . a b"
+    "c c d"
+    "e . ."
+    
     ;
 }
 
 
-
 #a{
-    grid-area: A;
+    grid-area: a;
+    border: black solid 2px;
 }
-#b{
-    grid-area: B;
-}
-#c{
-    grid-area: C;
-}
-#d{
-    grid-area: D;
-}
-#e{
-    grid-area: E;
-}
-/* #f{
-    grid-area: F;
-} */
 
+#b{
+    grid-area:b ;
+    border: black solid 2px;
+}
+
+#c{
+    grid-area:c ;
+    border: black solid 2px;
+}
+
+#d{
+    grid-area: d;
+    border: black solid 2px;
+}
+
+#e{
+    grid-area:e ;
+    border: black solid 2px;
+}

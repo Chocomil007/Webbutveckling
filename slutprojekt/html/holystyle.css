@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+.Eldenringfont {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root body{
+    background-color: black;
+    color: #FC3;
+}
+
+section{
+    background: rgba(1, 1, 1, 0.5);
+    margin: 10px;
+    padding: 10px;
+    border: double 5px #ad9324 ;
+}
+
+aside{
+    flex: 0 0 320px;
+    max-width: 320px;
+    min-width: 220px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar-text{
+    margin-bottom: 20px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: double 5px #ad9324;
+    padding: 8px;
+    margin: 8px;
+    flex: 1;
+}
+
+nav{
+    flex: 1;
+}
+
+aside footer{
+    margin-top: auto;
+}
+
+footer{
+    background-color: rgba(1, 1, 1, 0.5);
+    margin: 10px;
+    padding: 10px;
+    border: double 5px #ad9324;
+    color: #FC3;
+    text-align: center;
+}
+footer a
+{
+    color: #FC3;
+    text-decoration: none;
+}
+footer :hover{
+    color: #ad9324;
+}
+
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    min-height: 50vh;
+    padding: 10px;
+    border: double 5px #ad9324;
+    background-color: rgba(1, 1, 1, 0.5);
+
+}
+
+#wrapper img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    background-image: url(../IMG/RadahnBackground.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #FC3;
+}
+
+#start{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.7);
+    display: flex; 
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: #FC3;
+    background-image: url(../IMG/Eldenringlogo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 3.5em;
+    display: flex;
+    text-align: center;
+    color: #FC3;
+}
+
+@media screen and (min-width: 620px){
+    #wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+}
